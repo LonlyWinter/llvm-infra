@@ -1,0 +1,17 @@
+[package]
+name = "llvm-infra"
+version = "0.2.0"
+edition = "2024"
+authors = ["winter <winter_lonely@foxmail.com>"]
+license = "GPL-3.0-or-later"
+repository = "https://github.com/LonlyWinter/llvm-infra"
+description = "LLVM Compiler Infrastructure in Rust"
+keywords = ["LLVM", "Bitcode", "Pass"]
+
+[lib]
+crate-type = ["lib"]
+
+[lints.clippy]
+mutable_key_type = "allow"
+
+[dependencies]
